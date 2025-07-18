@@ -4,3 +4,4 @@ langchain_core==0.3.47
 langchain_openai==0.3.9
 weaviate==0.1.2
 pydantic==2.10.6
+standard-imghdr==3.13.0
