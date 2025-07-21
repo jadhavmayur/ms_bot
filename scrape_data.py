@@ -1,3 +1,4 @@
+################################ Scrape the data and save the json file ##################################### 
 import requests
 import pandas as pd
 import numpy as np
@@ -129,7 +130,7 @@ def scrape_pdf(u_pdf_links):
         
             metadata_pdf.append(mdata)
     return metadata_pdf
-    
+
 def scrape_all_data():
     all_links,pdf_links=get_all_links()
     metadata_link_scrape=scrape_links(all_links)
